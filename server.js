@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import ImageObject from '../server/models/ImageObject.js'; // Import the model for 'imageObject'
+import ImageObject from './models/ImageObject.js'; // Import the model for 'imageObject'
 import dotenv from 'dotenv';
 
 dotenv.config(); // Initialize dotenv
